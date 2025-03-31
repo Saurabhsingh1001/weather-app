@@ -15,7 +15,7 @@ const Home = () => {
       
   const handleClick =() => {
     if(name !== ""){
-      const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${name}&appid=55m348n7e2158d9ada6766e3480eb09yw3er028a&units=metric`; // change the api key with your original weather app api key
+      const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${name}&appid=558e17aa1f68d9ada6766e3480eb028a&units=metric`; // change the api key with your original weather app api key
       axios.get(apiUrl)
       .then(res => {
         let imagePath = '';
